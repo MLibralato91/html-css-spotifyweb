@@ -141,6 +141,14 @@ main{
     width: 300px;
     min-height: 480px;
     background-color:var(--black-color);
+    padding: 1.5rem;
+}
+.logo{
+    width: 70%;
+}
+
+.component li a{
+    width: 2.5rem;
 }
 /*  */
 
