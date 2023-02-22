@@ -102,7 +102,7 @@ main{
 
 /* Main-content */
 .main-content{
-    width:calc(100% - 230px);
+    width:calc(100% - 300px);
     height: 100%;
     background-color:var(--primary-color);
     overflow-y: auto;
@@ -111,9 +111,10 @@ main{
     position: fixed;
     top: 0;
     right: 0;  
-    width: calc(100% - 230px); 
+    width: calc(100% - 300px); 
     height: 80px;
-    background-color: rgba(0, 0, 0, 0.5)                     
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-right: 2rem;                     
 }
 .main-section{
     margin-top: 80px;
@@ -137,7 +138,7 @@ main{
 
 /* Main-nav */
 .main-nav{
-    width: 230px;
+    width: 300px;
     min-height: 480px;
     background-color:var(--black-color);
 }
