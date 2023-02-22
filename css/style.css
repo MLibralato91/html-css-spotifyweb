@@ -20,7 +20,12 @@
 .u-text{
     text-transform: uppercase;
 }
-
+.card{
+    padding-top: 1rem;
+}
+.text-center{
+    text-align: center;
+}
 /* Flex */
 .d-flex{
     display: flex;
@@ -56,6 +61,9 @@ body{
 a{
     color: var(--white-color);
     text-decoration: none;
+}
+img{
+    width: 100%;
 }
 /*  */
 
@@ -93,7 +101,7 @@ main{
     
 }
 .col{
-    padding: 1rem;
+    padding: 1rem 1rem 0 0;
     width: calc(100% / 6);
 }
 /*  */
