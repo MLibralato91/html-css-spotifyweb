@@ -35,6 +35,10 @@
 .d-flex{
     display: flex;
 }
+.column{
+    display: flex;
+    flex-flow: column nowrap;
+}
 .justify-end{
     justify-content: flex-end;
 }
@@ -142,13 +146,15 @@ main{
     min-height: 480px;
     background-color:var(--black-color);
     padding: 1.5rem;
+
 }
 .logo{
     width: 70%;
     padding-bottom: 2rem;
 }
 
-.component img{
+.component img,
+.bottom-nav img{
     width: 2.5rem;
 }
 .playlist a i{
@@ -162,6 +168,30 @@ main{
 .playlist h3{
     padding: 1.5rem 0 0.5rem 0;
 }
+.user .mask-img{
+    background-color: var(--text-grey-color);
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.bottom-nav{
+    position: absolute;
+    width: calc(300px - 3rem);
+    bottom: 0;
+    color: var(--text-grey-color);
+}
+.main-nav{
+    position: relative;
+}
+.bottom-nav h5{
+    padding: 0 0 1rem 0.5rem;
+}
+.bottom-nav .user{
+    padding: 1rem 0;
+}
+.bottom-nav h4{
+    padding-left: 0.5rem;
+    color: var(--white-color);
+}
 /*  */
 
 /* Play-bar */
@@ -169,6 +199,9 @@ main{
     width: 100%;
     height: 90px;
     background-color: var(--darkgrey-color);
+}
+.bar{
+    height: 100%;
 }
 /*  */
 
