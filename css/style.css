@@ -147,9 +147,14 @@ main{
     width: 70%;
 }
 
-.component li a{
+.component li a,
+.playlist li a{
     width: 2.5rem;
 }
+.playlist a i{
+    font-size:3.5rem ;
+}
+
 /*  */
 
 /* Play-bar */
