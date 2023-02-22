@@ -1,19 +1,14 @@
-/* General */
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 /* Color styles */
 
 /* Utilities */
+a{
+    color: white;
+}
 .btn{
     padding: 6px 12px;
     display: inline-block;
     border: 1px solid white;
-    color: white;
     border-radius: 20px;
 }
 .u-text{
@@ -31,6 +26,15 @@
     align-items: center;
     align-content: center;
 }
+
+/* General */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -47,6 +51,8 @@ body{
 
 
 }
+/* Main */
+
 main{
     width: 100%;
     height:calc(100vh - 90px) ;
@@ -81,8 +87,18 @@ main{
 .main-section{
     margin-top: 80px;
 }
-/* Header */
+.container{
+    padding: 1rem;
+}
+.row{
+    
+}
+.col{
+    padding: 1rem;
+    width: calc(100% / 6);
+}
 
-/* Main */
+
+
 
 /* Footer */
