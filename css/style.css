@@ -203,6 +203,18 @@ main{
 .bar{
     height: 100%;
 }
+.song img{
+    width: 3rem;
+}
+.section-song{
+    width: 30%;
+}
+.commands{
+    width: 30%;
+}
+.volume{
+    width: 30%;
+}
 /*  */
 
 
