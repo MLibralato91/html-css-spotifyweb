@@ -145,16 +145,23 @@ main{
 }
 .logo{
     width: 70%;
+    padding-bottom: 2rem;
 }
 
-.component li a,
-.playlist li a{
+.component img{
     width: 2.5rem;
 }
 .playlist a i{
-    font-size:3.5rem ;
+    font-size:3.5rem;
+    padding: 0.5rem 1rem 0.5rem 0;
 }
-
+.component li,
+.playlist li{
+    line-height: 3rem;
+}
+.playlist h3{
+    padding: 1.5rem 0 0.5rem 0;
+}
 /*  */
 
 /* Play-bar */
