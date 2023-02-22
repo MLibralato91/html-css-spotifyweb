@@ -9,6 +9,28 @@
 /* Color styles */
 
 /* Utilities */
+.btn{
+    padding: 6px 12px;
+    display: inline-block;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+}
+.u-text{
+    text-transform: uppercase;
+}
+
+/* Flex */
+.d-flex{
+    display: flex;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.align-center{
+    align-items: center;
+    align-content: center;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -28,9 +50,8 @@ body{
 main{
     width: 100%;
     height:calc(100vh - 90px) ;
-    
     overflow: hidden;
-    display: flex;
+
 }
 #play-bar{
     width: 100%;
@@ -40,7 +61,6 @@ main{
 .main-nav{
     width: 230px;
     min-height: 480px;
-    overflow-y:auto ;
     background-color: black;
 }
 
@@ -48,6 +68,7 @@ main{
     width:calc(100% - 230px);
     height: 100%;
     background-color: rgb(22, 22, 54);
+    overflow-y: auto;
 }
 #call-to-action{
     position: fixed;
@@ -56,6 +77,9 @@ main{
     width: calc(100% - 230px); 
     height: 80px;
     background-color: rgba(0, 0, 0, 0.5)                     
+}
+.main-section{
+    margin-top: 80px;
 }
 /* Header */
 
