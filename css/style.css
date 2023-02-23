@@ -200,6 +200,7 @@ main{
     bottom: 0;
     right: 0;
     background-color: var(--black-color);
+    padding: 0 1rem;
     
 }
 
@@ -212,6 +213,9 @@ main{
 .bottom-nav h4{
     padding-left: 0.5rem;
     color: var(--white-color);
+}
+.install{
+    padding-left: 0.7rem;
 }
 /*  */
 
@@ -310,14 +314,15 @@ main{
     .col{
         width: calc(100% / 2);
     }
-    
+    nav ul{
+        line-height: 2rem;
+    }
 }
 
 @media screen and (max-width:576px){
     
     .main-content{
         width:calc(100% - 80px);
-        
     }
     .col{
         width: 100%;
@@ -340,5 +345,8 @@ main{
     }
     #call-to-action{
         display: none;
+    }
+    .component img{
+        padding-bottom: 1rem;
     }
 }
