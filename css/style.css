@@ -160,7 +160,9 @@ main{
     width: 70%;
     padding-bottom: 2rem;
 }
-
+.logo img:first-child{
+    display: none;
+}
 .component img,
 .bottom-nav img{
     width: 2.5rem;
@@ -191,13 +193,14 @@ main{
     height: calc(100% - 100px);
 }
 .bottom-nav{
-    width: calc(300px - 3rem);
+    width: 300px;
     color: var(--text-grey-color);
     height: 100px;
     position: absolute;
     bottom: 0;
+    right: 0;
     background-color: var(--black-color);
-    display: block;
+    
 }
 
 .bottom-nav h5{
@@ -294,19 +297,38 @@ main{
 
 
 @media screen and (max-width: 1200px){
+    
+}
+
+@media screen and (max-width:992px){
     .col{
         width: calc(100% / 4);
     }
 }
 
-@media screen and (max-width:992px){
+@media screen and (max-width:768px){
+    .col{
+        width: calc(100% / 2);
+    }
     
 }
 
-@media screen and (max-width:768x){
+@media screen and (max-width:576px){
     
-}
-
-@media screen and (max-width:576x){
+    .logo img:first-child{
+        display: ;
+    }
+    .main-nav,
+    .bottom-nav{
+        width: 80px;
+    }
+    .playlist,
+    .main-nav h3,
+    .main-nav h4,
+    .main-nav h5,
+    .logo,
+    hr{
+        display: none;
+    }
     
 }
