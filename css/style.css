@@ -247,7 +247,34 @@ main{
 }
 .volume i{
     padding-right:1rem ;
-
+}
+.bar-duration{
+    width: 100%;
+    padding: 0 0.5rem;
+    
+}
+.first-bar{
+    width: 20%;
+    height: 0.5rem;
+    background-color:var(--text-grey-color);
+    position: relative;
+    
+}
+.second-bar{
+   width: 80%;
+   height: 0.5rem;
+   background-color: var(--text-grey-color)
+}
+.first-bar:hover{
+    background-color: var(--green-color);
+}
+.first-bar:hover i{
+    color: var(--green-color);
+}
+.first-bar i{
+    position: absolute;
+    right: -1rem;
+    top: -0.2rem;
 }
 .section-song{
     width: 30%;
