@@ -153,6 +153,7 @@ main{
     min-height: 480px;
     background-color:var(--black-color);
     padding: 1.5rem;
+    position: relative;
 
 }
 .logo{
@@ -176,7 +177,11 @@ main{
     padding: 1.5rem 0 0.5rem 0;
 }
 
+.playlist ul{
+    height: calc(65vh - 190px);
+    overflow-y: auto;
 
+}
 .user .mask-img{
     background-color: var(--text-grey-color);
     width: 2.5rem;
@@ -186,16 +191,15 @@ main{
     height: calc(100% - 100px);
 }
 .bottom-nav{
-    position: absolute;
     width: calc(300px - 3rem);
-    bottom: 0;
     color: var(--text-grey-color);
     height: 100px;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--black-color);
+    display: block;
 }
 
-.main-nav{
-    position: relative;
-}
 .bottom-nav h5{
     padding: 0 0 1rem 0.5rem;
 }
