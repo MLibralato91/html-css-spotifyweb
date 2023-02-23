@@ -31,6 +31,10 @@
     border-radius: 50%;
     overflow: hidden;
 }
+a:hover,
+a:active{
+    color: var(--white-color);
+}
 /* Flex */
 .d-flex{
     display: flex;
@@ -38,6 +42,9 @@
 .column{
     display: flex;
     flex-flow: column nowrap;
+}
+.wrap{
+    flex-wrap: wrap;
 }
 .justify-end{
     justify-content: flex-end;
@@ -218,3 +225,15 @@ main{
 /*  */
 
 
+@media screen and (max-width:1200px){
+    
+}
+@media screen and (max-width:992px){
+    
+}
+@media screen and (max-width:768x){
+    
+}
+@media screen and (max-width:576x){
+    
+}
