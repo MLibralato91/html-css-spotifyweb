@@ -185,6 +185,8 @@ main{
     width: calc(300px - 3rem);
     bottom: 0;
     color: var(--text-grey-color);
+    height: 100px;
+    border: 2px solid red;
 }
 .main-nav{
     position: relative;
@@ -225,15 +227,20 @@ main{
 /*  */
 
 
-@media screen and (max-width:1200px){
-    
+@media screen and (max-width: 1200px){
+    .col{
+        width: calc(100% / 4);
+    }
 }
+
 @media screen and (max-width:992px){
     
 }
+
 @media screen and (max-width:768x){
     
 }
+
 @media screen and (max-width:576x){
     
 }
