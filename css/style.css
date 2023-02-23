@@ -251,12 +251,11 @@ main{
 .bar-duration{
     width: 100%;
     padding: 0 0.5rem;
-    
 }
 .first-bar{
     width: 20%;
     height: 0.5rem;
-    background-color:var(--text-grey-color);
+    background-color:grey;
     position: relative;
     
 }
@@ -270,11 +269,17 @@ main{
 }
 .first-bar:hover i{
     color: var(--green-color);
+    display: block;
+    
 }
 .first-bar i{
     position: absolute;
-    right: -1rem;
+    right: -1.1rem;
     top: -0.2rem;
+    display: none;
+}
+.volume .bar-duration{
+    width: 20%;
 }
 .section-song{
     width: 30%;
