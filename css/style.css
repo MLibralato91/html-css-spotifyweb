@@ -315,8 +315,16 @@ main{
 
 @media screen and (max-width:576px){
     
+    .main-content{
+        width:calc(100% - 80px);
+        
+    }
+    .col{
+        width: 100%;
+    }
     .logo img:first-child{
-        display: ;
+        display: flex;
+        width: 2rem;
     }
     .main-nav,
     .bottom-nav{
@@ -326,9 +334,11 @@ main{
     .main-nav h3,
     .main-nav h4,
     .main-nav h5,
-    .logo,
+    .logo img:last-child,
     hr{
         display: none;
     }
-    
+    #call-to-action{
+        display: none;
+    }
 }
