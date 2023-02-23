@@ -217,6 +217,7 @@ main{
     width: 100%;
     height: 90px;
     background-color: var(--darkgrey-color);
+    color: var(--text-grey-color);
 }
 .bar{
     height: 100%;
@@ -229,13 +230,24 @@ main{
 }
 .text-song h5{
     line-height: 0.1rem;
+    color: var(--white-color);
 }
 .like{
     padding-left: 2.5rem;
 }
 .like i{
-    color: var(--text-grey-color);
+
     padding-right: 1rem;
+}
+.commands i{
+    padding: 0 1rem 0.5rem 1rem;
+}
+.volume{
+    padding-right: 1rem;
+}
+.volume i{
+    padding-right:1rem ;
+
 }
 .section-song{
     width: 30%;
