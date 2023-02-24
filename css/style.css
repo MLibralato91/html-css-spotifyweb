@@ -199,7 +199,7 @@ main{
 }
 
 .playlist ul{
-    height: calc(65vh - 190px);
+    height: calc(65vh - 230px);
     overflow-y: auto;
 
 }
