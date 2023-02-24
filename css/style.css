@@ -84,12 +84,10 @@ nav{
     overflow: hidden;
 }
 a{
-    color: var(--white-color);
+    color: var(--text-grey-color);
     text-decoration: none;
 }
-ul a{
-    color: var(--text-grey-color);
-}
+
 li{
     list-style: none;
 }
@@ -309,7 +307,9 @@ main{
 }
 .commands i{
     padding: 0 1rem 0.5rem 1rem;
+    font-size: 1.5rem;
 }
+
 .volume{
     padding-right: 1rem;
 }
@@ -335,7 +335,8 @@ main{
 .first-bar:hover{
     background-color: var(--green-color);
 }
-.first-bar:hover i{
+.first-bar:hover i,
+.volume .bar-duration .first-bar:hover i{
     color: var(--green-color);
     display: block;
     
@@ -343,7 +344,13 @@ main{
 .first-bar i{
     position: absolute;
     right: -1.1rem;
-    top: -0.2rem;
+    top: -0.5rem;
+    display: none;
+}
+.volume .bar-duration .first-bar i{
+    position: absolute;
+    right: -1.1rem;
+    top: -0.3rem;
     display: none;
 }
 .volume .bar-duration{
@@ -409,6 +416,16 @@ main{
     }
     .component img{
         padding-bottom: 1rem;
+    }
+    .section-song{
+        display: none;
+    }
+    .volume{
+        display: none;
+    }
+    .commands{
+        width: 100%;
+        padding: 0 2rem;
     }
 }
 @media screen and (max-height:200px){
