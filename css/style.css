@@ -260,6 +260,10 @@ main{
 .bottom-nav h4{
     padding-left: 0.5rem;
     color: var(--white-color);
+    cursor: pointer;
+}
+.bottom-nav h4:hover{
+    text-decoration: underline;
 }
 .install{
     padding-left: 0.7rem;
@@ -297,12 +301,15 @@ main{
 .text-song h5{
     line-height: 0.1rem;
     color: var(--white-color);
+    cursor: pointer;
+}
+.text-song h5:hover{
+    text-decoration: underline;
 }
 .like{
     padding-left: 2.5rem;
 }
 .like i{
-
     padding-right: 1rem;
 }
 .commands i{
