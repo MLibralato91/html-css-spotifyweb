@@ -99,7 +99,9 @@ img{
 sub{
     color: var(--text-grey-color);
 }
-
+h2{
+    font-size: 2rem;
+}
 /*  */
 
 /* Main */
